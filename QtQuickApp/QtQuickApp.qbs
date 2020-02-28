@@ -22,6 +22,8 @@ Application {
     ]
 
     files: [
+        "handler.cpp",
+        "handler.h",
         "main.cpp",
         "main.qml",
         "qml.qrc",

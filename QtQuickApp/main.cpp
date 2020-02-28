@@ -18,5 +18,8 @@ int main(int argc, char *argv[])
     }, Qt::QueuedConnection);
     engine.load(url);
 
+    QObject* pObj=engine.rootObjects().first();
+    QObject* pButton=pObj->findChild<QObject*>("button");
+
     return app.exec();
 }
