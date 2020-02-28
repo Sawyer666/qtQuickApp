@@ -27,6 +27,8 @@ Application {
         "main.cpp",
         "main.qml",
         "qml.qrc",
+        "weather.cpp",
+        "weather.h",
     ]
 
     Group {     // Properties for the produced executable
